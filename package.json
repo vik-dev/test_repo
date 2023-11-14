@@ -1,0 +1,20 @@
+{
+  "name": "@casino/test",
+  "type": "module",
+  "version": "0.0.2",
+  "main": "./nuxt.config.ts",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@casino/api": "workspace:*",
+    "@casino/core": "workspace:*",
+    "@nuxt/devtools": "^0.4.6",
+    "nuxt": "^3.6.2",
+    "vue": "^3.3.8"
+  }
+}
