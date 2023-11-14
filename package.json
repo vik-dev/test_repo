@@ -11,10 +11,6 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@casino/api": "workspace:*",
-    "@casino/core": "workspace:*",
-    "@nuxt/devtools": "^0.4.6",
-    "nuxt": "^3.6.2",
-    "vue": "^3.3.8"
+    "nuxt": "^3.6.2"
   }
 }
